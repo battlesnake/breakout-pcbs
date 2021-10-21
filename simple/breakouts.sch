@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J4
+U 1 1 61734C61
+P 1400 1400
+F 0 "J4" H 1450 1917 50  0000 C CNN
+F 1 "SOIC-16-3.9P1.27" H 1450 1826 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 1400 1400 50  0001 C CNN
+F 3 "~" H 1400 1400 50  0001 C CNN
+	1    1400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Counter_Clockwise J20
+U 1 1 6173EB6B
+P 1400 2100
+F 0 "J20" H 1450 2517 50  0000 C CNN
+F 1 "MSOP-12-3P0.65" H 1450 2426 50  0000 C CNN
+F 2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" H 1400 2100 50  0001 C CNN
+F 3 "~" H 1400 2100 50  0001 C CNN
+	1    1400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J5
+U 1 1 61741F35
+P 2500 1400
+F 0 "J5" H 2550 967 50  0000 C CNN
+F 1 "TSSOP-14-4.4P0.65" H 2550 876 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 2500 1400 50  0001 C CNN
+F 3 "~" H 2500 1400 50  0001 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J14
+U 1 1 6174DBA7
+P 2500 1900
+F 0 "J14" H 2550 2217 50  0000 C CNN
+F 1 "SOT-23" H 2550 2126 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2500 1900 50  0001 C CNN
+F 3 "~" H 2500 1900 50  0001 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R J1
+U 1 1 61751210
+P 3550 2400
+F 0 "J1" H 3620 2446 50  0000 L CNN
+F 1 "0402" H 3620 2355 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 3550 2400 50  0001 C CNN
+F 3 "~" H 3550 2400 50  0001 C CNN
+	1    3550 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J9
+U 1 1 61752FD5
+P 3550 1700
+F 0 "J9" H 3620 1746 50  0000 L CNN
+F 1 "0603" H 3620 1655 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 1700 50  0001 C CNN
+F 3 "~" H 3550 1700 50  0001 C CNN
+	1    3550 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J25
+U 1 1 61753DC6
+P 3550 1100
+F 0 "J25" H 3620 1146 50  0000 L CNN
+F 1 "0805" H 3620 1055 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3550 1100 50  0001 C CNN
+F 3 "~" H 3550 1100 50  0001 C CNN
+	1    3550 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J29
+U 1 1 61754D25
+P 3550 2600
+F 0 "J29" H 3620 2646 50  0000 L CNN
+F 1 "1210" H 3620 2555 50  0000 L CNN
+F 2 "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3550 2600 50  0001 C CNN
+F 3 "~" H 3550 2600 50  0001 C CNN
+	1    3550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J2
+U 1 1 6175AE90
+P 3550 2500
+F 0 "J2" H 3620 2546 50  0000 L CNN
+F 1 "0402" H 3620 2455 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 3550 2500 50  0001 C CNN
+F 3 "~" H 3550 2500 50  0001 C CNN
+	1    3550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J3
+U 1 1 6175B506
+P 3550 1300
+F 0 "J3" H 3620 1346 50  0000 L CNN
+F 1 "0402" H 3620 1255 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 3550 1300 50  0001 C CNN
+F 3 "~" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J6
+U 1 1 6175DE84
+P 3550 1400
+F 0 "J6" H 3620 1446 50  0000 L CNN
+F 1 "0402" H 3620 1355 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 3550 1400 50  0001 C CNN
+F 3 "~" H 3550 1400 50  0001 C CNN
+	1    3550 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J10
+U 1 1 61762210
+P 3550 1800
+F 0 "J10" H 3620 1846 50  0000 L CNN
+F 1 "0603" H 3620 1755 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 1800 50  0001 C CNN
+F 3 "~" H 3550 1800 50  0001 C CNN
+	1    3550 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J23
+U 1 1 61764FFA
+P 3550 2200
+F 0 "J23" H 3620 2246 50  0000 L CNN
+F 1 "0603" H 3620 2155 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 2200 50  0001 C CNN
+F 3 "~" H 3550 2200 50  0001 C CNN
+	1    3550 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J24
+U 1 1 61765006
+P 3550 2300
+F 0 "J24" H 3620 2346 50  0000 L CNN
+F 1 "0603" H 3620 2255 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3550 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J27
+U 1 1 6176C34E
+P 3550 1200
+F 0 "J27" H 3620 1246 50  0000 L CNN
+F 1 "0805" H 3620 1155 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3550 1200 50  0001 C CNN
+F 3 "~" H 3550 1200 50  0001 C CNN
+	1    3550 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J30
+U 1 1 6176C35A
+P 3550 2700
+F 0 "J30" H 3620 2746 50  0000 L CNN
+F 1 "1210" H 3620 2655 50  0000 L CNN
+F 2 "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3550 2700 50  0001 C CNN
+F 3 "~" H 3550 2700 50  0001 C CNN
+	1    3550 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J11
+U 1 1 6177B943
+P 1000 1900
+F 0 "J11" H 918 2917 50  0000 C CNN
+F 1 "Conn_01x17" H 918 2826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 1000 1900 50  0001 C CNN
+F 3 "~" H 1000 1900 50  0001 C CNN
+	1    1000 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J12
+U 1 1 61784C8A
+P 1900 1900
+F 0 "J12" H 1818 875 50  0000 C CNN
+F 1 "Conn_01x17" H 1818 966 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 1900 1900 50  0001 C CNN
+F 3 "~" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J13
+U 1 1 61787402
+P 2100 1900
+F 0 "J13" H 2018 2917 50  0000 C CNN
+F 1 "Conn_01x17" H 2018 2826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 2100 1900 50  0001 C CNN
+F 3 "~" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J15
+U 1 1 617882A0
+P 3000 1900
+F 0 "J15" H 2918 875 50  0000 C CNN
+F 1 "Conn_01x17" H 2918 966 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 3000 1900 50  0001 C CNN
+F 3 "~" H 3000 1900 50  0001 C CNN
+	1    3000 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J22
+U 1 1 6178B9EA
+P 2500 2200
+F 0 "J22" H 2550 2517 50  0000 C CNN
+F 1 "SOT-23" H 2550 2426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2500 2200 50  0001 C CNN
+F 3 "~" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J28
+U 1 1 6178C283
+P 1400 2600
+F 0 "J28" H 1450 2917 50  0000 C CNN
+F 1 "SOT-23" H 1450 2826 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 1400 2600 50  0001 C CNN
+F 3 "~" H 1400 2600 50  0001 C CNN
+	1    1400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J16
+U 1 1 6178F693
+P 3200 1900
+F 0 "J16" H 3118 2917 50  0000 C CNN
+F 1 "Conn_01x17" H 3118 2826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 3200 1900 50  0001 C CNN
+F 3 "~" H 3200 1900 50  0001 C CNN
+	1    3200 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J18
+U 1 1 61790347
+P 3900 1900
+F 0 "J18" H 3818 875 50  0000 C CNN
+F 1 "Conn_01x17" H 3818 966 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 3900 1900 50  0001 C CNN
+F 3 "~" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J26
+U 1 1 61799E62
+P 2500 2500
+F 0 "J26" H 2550 2167 50  0000 C CNN
+F 1 "SOIC-8-3.9P1.27" H 2550 2076 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2500 2500 50  0001 C CNN
+F 3 "~" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R J19
+U 1 1 617A1240
+P 3550 2000
+F 0 "J19" H 3620 2046 50  0000 L CNN
+F 1 "0603" H 3620 1955 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 2000 50  0001 C CNN
+F 3 "~" H 3550 2000 50  0001 C CNN
+	1    3550 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J21
+U 1 1 617A1246
+P 3550 2100
+F 0 "J21" H 3620 2146 50  0000 L CNN
+F 1 "0603" H 3620 2055 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 2100 50  0001 C CNN
+F 3 "~" H 3550 2100 50  0001 C CNN
+	1    3550 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J7
+U 1 1 617A1FE0
+P 3550 1500
+F 0 "J7" H 3620 1546 50  0000 L CNN
+F 1 "0402" H 3620 1455 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 3550 1500 50  0001 C CNN
+F 3 "~" H 3550 1500 50  0001 C CNN
+	1    3550 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J8
+U 1 1 617A1FE6
+P 3550 1600
+F 0 "J8" H 3620 1646 50  0000 L CNN
+F 1 "0402" H 3620 1555 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 3550 1600 50  0001 C CNN
+F 3 "~" H 3550 1600 50  0001 C CNN
+	1    3550 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R J17
+U 1 1 617A22EE
+P 3550 1900
+F 0 "J17" H 3620 1946 50  0000 L CNN
+F 1 "0603" H 3620 1855 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 1900 50  0001 C CNN
+F 3 "~" H 3550 1900 50  0001 C CNN
+	1    3550 1900
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
